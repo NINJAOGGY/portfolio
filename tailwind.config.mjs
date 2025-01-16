@@ -9,10 +9,14 @@ export default {
   ],
   theme: {
     extend: {
+      borderWidth: {
+        6: '6px', // Add 6px border width
+      },
       colors: {
         lightHover:'#fcf4ff',
         darkHover:'#2a004a',
         darkTheme: '#11001F',
+        customOrange:'rgb(255,159,24)',
       },
       fontFamily:{
         Outfit:["Outfit","sans-serif"],

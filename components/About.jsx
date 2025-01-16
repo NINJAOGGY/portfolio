@@ -2,22 +2,23 @@ import { assets, infoList, toolsData } from '@/assets/assets'
 import { motion } from 'motion/react'
 import Image from 'next/image'
 import React from 'react'
+import './About.css'
 
 const About = ({isDarkMode}) => {
     return (
         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1}}
-        className='w-full px-[12%] py-10 scroll-mt-20' id='about'>
+        className='relative w-full px-[12%] py-10 scroll-mt-20' id='about'>
             <h4 className='text-center mb-2 text-lg font-Ovo'>Introduction</h4>
             <h2 className='text-center text-5xl font-Ovo'>About me</h2>
 
             <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-[1cm]'>
-                <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                    <Image src={assets.user_image} alt='' className='w-full rounded-3xl' />
+                <div className='card w-64 sm:w-80 max-w-none'>
+                    <Image src={assets.goku} alt='' className='w-full rounded-3xl' />
                 </div>
 
                 <div className='flex-1'>
                     <p className='mb-10 max-w-2xl font-Ovo'>
-                    Aspiring Front-End Developer with a strong command of React.js, modern UI frameworks, and responsive web design. Passionate about building engaging and efficient user interfaces with a keen eye for design and performance optimization. Seeking an internship to apply my front-end expertise, collaborate in a dynamic team, and further refine my skills in real-world projects.
+                    Aspiring Front-End Developer with a strong command of React.js, modern UI frameworks, and responsive web design. Passionate about building engaging and efficient user interfaces. Seeking an internship to apply my front-end and debugging expertise, collaborate in a dynamic team, and further learning backend to refine my skills in real-world projects.
                     </p>
 
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>

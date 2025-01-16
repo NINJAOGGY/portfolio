@@ -32,7 +32,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
       </div>
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? 'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20':''} transition-all duration-300`}>
         <a href="#top">
-        <h1 className={`text-6xl`}>Aditya.</h1> 
+        <h1 className='name text-6xl'>Aditya.</h1> 
         </a>
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll?'':'bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent'} transition-all duration-500`}>

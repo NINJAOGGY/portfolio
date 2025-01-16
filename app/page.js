@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   
   // useEffect(()=>{
   //   if(localStorage.theme==='dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme:dark)').matches)){

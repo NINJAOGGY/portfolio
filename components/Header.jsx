@@ -2,15 +2,31 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import {motion} from 'motion/react'
+import './Header.css'
 
-const Header = () => {
+const Header = ({isDarkmode}) => {
     return (
-        <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
+        <div className='header w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
+            {/* animation box */}
+            <div className="box border-6 border-solid border-customOrange">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <motion.div
                 initial={{scale:0}} whileInView={{scale:1}}
                 transition={{duration:0.8, type:'spring', stiffness:100}}
             >
-                <Image src={assets.profile_img} alt='' className='rounded-full w-32' />
+                <Image src={assets.goku} alt='' className='rounded-full w-32 border border-gray-600' />
             </motion.div>
             <motion.h3 initial={{y:-20, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:0.6, delay:0.3}}
              className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
@@ -23,7 +39,7 @@ const Header = () => {
             </motion.h1>
             <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.6, delay:0.7}}
             className='max-w-2xl mx-auto font-Ovo'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident vel odio velit, nisi laborum molestias vitae repudiandae necessitatibus modi quae.
+                Feel free to explore my portfolio and discover my projects, skills, and passion for creating impactful work.
             </motion.p>
             <div className='flex items-center gap-4 mt-4'>
                 <motion.a initial={{y:30, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:0.6, delay:0.6}}
