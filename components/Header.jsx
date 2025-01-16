@@ -8,7 +8,7 @@ const Header = ({isDarkmode}) => {
     return (
         <div className='header w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
             {/* animation box */}
-            <div className="box border-6 border-solid border-customOrange">
+            <div className="box">
                 <div></div>
                 <div></div>
                 <div></div>
