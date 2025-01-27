@@ -31,10 +31,10 @@ const Contact = ({isDarkMode}) => {
 
     return (
         <div className='footer w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none' id='contact'>
-            <h4 className='text-center mb-2 text-lg font-Ovo'>Conect with Me</h4>
-            <h2 className='text-center text-5xl font-Ovo'>Get in touch</h2>
+            <h4 className='text-center mb-2 text-lg '>Conect with Me</h4>
+            <h2 className='text-center text-5xl '>Get in touch</h2>
 
-            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 '>
                 I'd love to hear from you! If you have any questions, comments, or feedback, please use the form below.
             </p>
 

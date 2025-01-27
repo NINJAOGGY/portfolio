@@ -7,10 +7,10 @@ import { motion } from 'framer-motion';  // Ensure correct import
 const Work = ({ isDarkMode }) => {
     return (
         <div className="w-full px-[12%] py-14 scroll-mt-20" id="work">
-            <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
-            <h2 className="text-center text-5xl font-Ovo">My latest work</h2>
+            <h4 className="text-center mb-2 text-lg ">My portfolio</h4>
+            <h2 className="text-center text-5xl ">My latest work</h2>
 
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 ">
                 Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in full-stack development.
             </p>
 

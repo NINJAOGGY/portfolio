@@ -8,8 +8,8 @@ const About = ({isDarkMode}) => {
     return (
         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1}}
         className='relative w-full px-[12%] py-10 scroll-mt-20' id='about'>
-            <h4 className='text-center mb-2 text-lg font-Ovo'>Introduction</h4>
-            <h2 className='text-center text-5xl font-Ovo'>About me</h2>
+            <h4 className='text-center mb-2 text-lg'>Introduction</h4>
+            <h2 className='text-center text-5xl'>About me</h2>
 
             <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-[1cm]'>
                 <div className='card w-64 sm:w-80 max-w-none'>
@@ -17,7 +17,7 @@ const About = ({isDarkMode}) => {
                 </div>
 
                 <div className='flex-1'>
-                    <p className='mb-10 max-w-2xl font-Ovo'>
+                    <p className='mb-10 max-w-2xl'>
                     Aspiring Front-End Developer with a strong command of React.js, modern UI frameworks, and responsive web design. Passionate about building engaging and efficient user interfaces. Seeking an internship to apply my front-end and debugging expertise, collaborate in a dynamic team, and further learning backend to refine my skills in real-world projects.
                     </p>
 
@@ -31,7 +31,7 @@ const About = ({isDarkMode}) => {
                         ))}
                     </ul>
 
-                    <h4 className='my-6 text-gray-700 font-Ovo dark:text-white/80'>
+                    <h4 className='my-6 text-gray-700 dark:text-white/80'>
                         Tools I use
                     </h4>
 

@@ -5,10 +5,10 @@ import React from 'react'
 const Services = ({ isDarkMode }) => {
     return (
         <div className={`w-full px-[12%] py-10 scroll-mt-20`} id="services">
-            <h4 className="text-center mb-2 text-lg font-Ovo">What I Offer</h4>
-            <h2 className="text-center text-5xl font-Ovo">My Expertise</h2>
+            <h4 className="text-center mb-2 text-lg ">What I Offer</h4>
+            <h2 className="text-center text-5xl ">My Expertise</h2>
 
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 ">
             I provide innovative solutions in web development, debugging, and UI/UX design, ensuring functional, error-free, and user-friendly digital experiences.    
             </p>
 
